@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-all_df = pd.read_csv("all_data.csv")
+all_df = pd.read_csv("https://raw.githubusercontent.com/dirch4/Submission_Proyek_Analisis_Data_Dimas_N/refs/heads/main/dashboard/all_data.csv")
 
 all_df['dateday'] = pd.to_datetime(all_df['dateday'])
 
